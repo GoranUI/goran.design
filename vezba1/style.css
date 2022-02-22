@@ -1,0 +1,189 @@
+@font-face {
+    font-family: SangBleu;
+    src: url(fonts/SangBleuKingdom-Regular-WebS.woff2);
+}
+
+@font-face {
+    font-family: domaine;
+    src: url(fonts/domaine-display-condensed-web-regular.woff2);
+}
+
+@font-face {
+    font-family: Montreal;
+    src: url(fonts/NeueMontreal-Regular.woff2);
+}
+
+html {
+    scroll-behavior: smooth;
+    margin: 0px;
+}
+
+body {
+    margin: 0px;
+}
+
+.header1 {
+    height: 100vh;
+}
+
+.darken {
+    background-color: #000;
+    opacity: 40%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    overflow: hidden;
+
+}
+
+.nav {
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 20px;
+}
+
+.nav a{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.hero-video {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%; 
+  overflow: hidden;
+  z-index: -2;
+}
+
+
+.hero-text {
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 250px;
+    font-stretch: condensed;
+    margin-top: 8%;
+    font-family: "domaine";
+    color: #fff;
+}
+.hero-text p {
+    margin-top: -20px;
+}
+
+.hero-button {
+    text-align:  center;
+    margin-top: 200px;
+    padding-bottom: 30px;
+}
+.hero-button a {
+    margin-top: 50px;
+    font-size: 20px;
+    color: #fff;
+    font-family: "SangBleu";
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.hero-button p {
+    /*margin-top: 50px;*/
+    font-size: 15px;
+    color: #fff;
+}
+
+.hero-text p {
+    color: #fff;
+    font-size: 20px;
+    font-family: "SangBleu";
+    margin-top: -50px;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.section1 h2 {
+    font-size: 300px;
+    margin: 0px;
+    font-family: "domaine";
+    margin-bottom: 30px;
+}
+
+.row {
+    display: flex;
+}
+  
+.column1 {
+    flex: 60%;
+}
+
+.column2 {
+    flex: 40%;
+}
+
+img {
+    width: 100%;
+}
+
+.column2 p {
+    margin-left: 40px;
+    font-size: 20px;
+    font-family: "Montreal"; 
+}
+
+.dot {
+    font-size: 150px;
+    margin: 0px;
+    margin-bottom: 60px;
+}
+
+.mb{
+    margin-bottom: 200px;
+}
+
+.smallimage{
+    margin-top: 40px;
+    width: 95%;
+}
+
+.column2 a {
+    margin-top: 100px;
+    font-size: 100px;
+    text-decoration: none;
+    color: black;
+}
+
+.column2 a:hover {
+    font-weight: 700;
+}
+
+footer {
+    margin-top: 100px;
+    display: block;
+    background-color: rgb(8, 8, 8);
+    color: #fff;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: "Montreal";
+}
+
+footer a{
+    color: #fff;
+    font-weight: 700;
+}
