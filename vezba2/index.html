@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>AD352 - Vežba 02</title>
+        <meta name="description" content="AD352 - Vežba 2 - CSS Tranzicije">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body class="body1">
+        <nav class="nav mt-24 m-10">
+            <a class="link" href="index.html">AD352 - Vežba 02</a>
+        </nav>
+
+        <main class="main m-10">
+            <section class="welcomeSection mb-48 mt-48">
+                <h1 class="big-title"> Dobrodšli u Vežbu 2 👋 </h1>
+                <p class="desc"> 
+                    U ovoj vežbi možete videti primere CSS Tranzicija,<br>
+                    tj. Cross-Fading i Resizable Boxes.
+                </p>
+            </section>
+
+            <section class="mt-48 crossfade">
+                <h2 class="title">1. Cross-Fade Images </h2>
+                <p class="desc">Prislonite kursor na sliku da bi pokrenuli efekat</p>
+                <div id="crossfade">
+                    <img class="bottom" src="assets/images/imgBottom.jpg" />
+                    <img class="top" src="assets/images/imgTop.jpg" />
+                </div>
+            </section>
+
+            <section class="mt-48 collapsibles">
+                <h2 class="title">2. Resizable Box</h2>
+                <p class="desc">Kliknite na omot da bi ste otvorili karticu.</p>
+                <div class = "m-10 wrap-collabsible" > 
+                    <input id="collapsible" class="toggle" type = "checkbox"> 
+                    <label for="collapsible" class="m-10 lbl-toggle" > Šta je HTML? </label>
+                    <div class="m-10 collapsible-content">
+                        <div class="content-inner">
+                        <p class="desc-white"> HTML je kompjuterski jezik koji se koristi za kreiranje web sajtova. Njegovo puno ime je HyperText Markup Language, tj. jezik za označavanje hiperteksta. Pre nego što nastavimo, valja objasniti prvo da je hiperteskt tekstualna struktura koja se sastoji od međusobno povezanih jedinica informacije.</p>
+                        <p class="desc-white"> Reč „hyper” označava da je reč o nelinerarnom prikazu informacija. Drugim rečima, možete da kliknete na bilo koji deo sajta, učitavajući informacije na način koji vama odgovara. To znači da ne postoji pravi početak i kraj, već možete da posećujete šta god poželite. Treba istaći i da je hipertekst modularan, što znači da on praktično nikad nije završen, ali se uvek može nadograditi.</p> 
+                    </div>
+                </div>    
+                <p class="desc">*Ova tranzicija je napisana u čistom CSS-u, bez upotrebe JS-a.</p>          
+            </section>
+        </main>
+
+        <footer>
+            <p class="desc-white">Autor: <a class="link" href="https://goranui.design">Goran Petković</a></p>
+        </footer>
+    
+        <script src="" async defer></script>
+    </body>
+</html>
